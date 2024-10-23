@@ -67,13 +67,12 @@ const RequestSuccess = async ({
           </div>
         </section>
 
-        <Button variant="outline" className="shad-primary-btn" asChild>
+        <Button variant="ocean" asChild>
           <Link href={`/patients/${userId}/new-appointment`}>
             New Appointment
           </Link>
         </Button>
-
-        <p className="copyright">© 2024 HealthPlus</p>
+        <p className="copyright text-white">© 2024 HealthPlus</p>
       </div>
     </div>
   );

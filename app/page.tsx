@@ -24,10 +24,10 @@ const Home = ({ searchParams }: SearchParamProps) => {
           <PatientForm />
 
           <div className="text-14-regular mt-20 flex justify-between">
-            <p className="justify-items-end text-dark-600 xl:text-left">
+            <p className="justify-items-end text-white xl:text-left">
               © 2024 HealthPlus
             </p>
-            <Link href="/?admin=true" className="text-green-500">
+            <Link href="/?admin=true" className="text-white">
               Admin
             </Link>
           </div>
